@@ -66,3 +66,9 @@ help_center:
   description: 'Permita que os agentes criem artigos da central de ajuda e os publiquem em um portal.'
   enabled: true
   icon: 'icon-book-2-line'
+microsoft:
+  name: 'Microsoft'
+  description: 'Configuration for setting up Microsoft Email'
+  enabled: true
+  icon: 'icon-microsoft'
+  config_key: 'microsoft'

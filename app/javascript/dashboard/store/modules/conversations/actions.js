@@ -175,10 +175,10 @@ const actions = {
     });
   },
 
-  async setActiveChat({ commit, dispatch }, { data, after }) {
+  async setActiveChat({ commit, dispatch }, { data, after, force = false }) {
     commit(types.SET_CURRENT_CHAT_WINDOW, data);
     commit(types.CLEAR_ALL_MESSAGES_LOADED);
-    if (data.dataFetched === undefined) {
+    if (data.dataFetched === undefined || force) {
       try {
         await dispatch('fetchPreviousMessages', {
           after,
@@ -465,6 +465,10 @@ const actions = {
 
   setCurrentChatPriority({ commit }, { priority, conversationId }) {
     commit(types.ASSIGN_PRIORITY, { priority, conversationId });
+  },
+
+  setContextMenuChatId({ commit }, chatId) {
+    commit(types.SET_CONTEXT_MENU_CHAT_ID, chatId);
   },
 
   ...messageReadActions,

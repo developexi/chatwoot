@@ -140,6 +140,8 @@ openai:
     "properties": {
         "api_key": { "type": "string" },
         "label_suggestion": { "type": "boolean" },
+        "model_name": { "type": "string" },
+        "api_url": { "type": "string" },
       },
     "required": ["api_key"],
     "additionalProperties": false,
@@ -152,10 +154,44 @@ openai:
       "validation": "required",
     },
     {
+      "label": "Model Name (optional)",
+      "type": "text",
+      "name": "model_name",
+    },
+    {
+      "label": "API URL (optional)",
+      "type": "text",
+      "name": "api_url",
+    },
+    {
       "label": "Show label suggestions",
       "type": "checkbox",
       "name": "label_suggestion",
       "validation": "",
     },
   ]
-  visible_properties: ['api_key', 'label_suggestion']
+  visible_properties: ['api_key', 'label_suggestion', 'model_name', 'api_url']
+linear:
+  id: linear
+  logo: linear.png
+  i18n_key: linear
+  action: /linear
+  hook_type: account
+  allow_multiple_hooks: false
+  settings_json_schema: {
+    "type": "object",
+    "properties": {
+        "api_key": { "type": "string" },
+      },
+    "required": ["api_key"],
+    "additionalProperties": false,
+  }
+  settings_form_schema: [
+    {
+      "label": "API Key",
+      "type": "text",
+      "name": "api_key",
+      "validation": "required",
+    },
+  ]
+  visible_properties: []

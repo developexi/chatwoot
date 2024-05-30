@@ -1,6 +1,7 @@
 {
   "SLA": {
     "HEADER": "SLA",
+<<<<<<< HEAD
     "HEADER_BTN_TXT": "Add SLA",
     "LOADING": "Buscando SLAs",
     "SEARCH_404": "Não existem itens correspondentes a esta consulta",
@@ -23,6 +24,39 @@
         "LABEL": "SLA Nome",
         "PLACEHOLDER": "SLA Nome",
         "REQUIRED_ERROR": "O nome do SLA é obrigatório",
+=======
+    "HEADER_BTN_TXT": "Adicionar SLA",
+    "ADD_ACTION_LONG": "Criar uma nova política de SLA",
+    "DESCRIPTION": "Acordos de Nível de Serviço (SLAs) são contratos que definem expectativas claras entre sua equipe e os clientes. Eles estabelecem padrões para tempos de resposta e resolução, criando um quadro de responsabilidade e garantindo uma experiência consistente e de alta qualidade.",
+    "LEARN_MORE": "Saiba mais sobre SLA",
+    "LOADING": "Carregando SLAs",
+    "LIST": {
+      "404": "Não há SLAs disponíveis nesta conta.",
+      "EMPTY": {
+        "TITLE_1": "Enterprise P0",
+        "DESC_1": "Problemas levantados por clientes corporativos, que exigem atenção imediata.",
+        "TITLE_2": "Enterprise P1",
+        "DESC_2": "Problemas levantados por clientes corporativos, que precisam ser reconhecidos rapidamente."
+      },
+      "BUSINESS_HOURS_ON": "Horários de funcionamento",
+      "BUSINESS_HOURS_OFF": "Fora do horário comercial",
+      "RESPONSE_TYPES": {
+        "FRT": "Limite de tempo da primeira resposta",
+        "NRT": "Limite de tempo da próxima resposta",
+        "RT": "Limite de tempo de resolução",
+        "SHORT_HAND": {
+          "FRT": "FRT",
+          "NRT": "NRT",
+          "RT": "RT"
+        }
+      }
+    },
+    "FORM": {
+      "NAME": {
+        "LABEL": "Nome do SLA",
+        "PLACEHOLDER": "Nome do SLA",
+        "REQUIRED_ERROR": "Nome do SLA é obrigatório",
+>>>>>>> b35e361aae08b25436abf011c851df556b73227b
         "MINIMUM_LENGTH_ERROR": "Tamanho mínimo 2 é necessário",
         "VALID_ERROR": "Somente Letras, Números, Hífen e Sublinhado são permitidos"
       },
@@ -35,7 +69,7 @@
         "PLACEHOLDER": "5"
       },
       "NEXT_RESPONSE_TIME": {
-        "LABEL": "Next Response Time",
+        "LABEL": "Próximo Tempo de Resposta",
         "PLACEHOLDER": "5"
       },
       "RESOLUTION_TIME": {
@@ -44,7 +78,11 @@
       },
       "BUSINESS_HOURS": {
         "LABEL": "Horário de funcionamento",
+<<<<<<< HEAD
         "PLACEHOLDER": "Somente em horário comercial"
+=======
+        "PLACEHOLDER": "Apenas durante o horário comercial"
+>>>>>>> b35e361aae08b25436abf011c851df556b73227b
       },
       "THRESHOLD_TIME": {
         "INVALID_FORMAT_ERROR": "O limite deve ser um número e maior que zero"
@@ -55,11 +93,19 @@
       "CANCEL": "Cancelar"
     },
     "ADD": {
+<<<<<<< HEAD
       "TITLE": "Add SLA",
       "DESC": "SLAs: Promessas amigáveis ​​para um ótimo serviço!",
       "API": {
         "SUCCESS_MESSAGE": "SLA adicionado com sucesso",
         "ERROR_MESSAGE": "Corrija um erro, por favor tente novamente"
+=======
+      "TITLE": "Adicionar SLA",
+      "DESC": "Promessas amigáveis para um ótimo serviço!",
+      "API": {
+        "SUCCESS_MESSAGE": "SLA adicionado com sucesso",
+        "ERROR_MESSAGE": "Ocorreu um erro, por favor tente novamente"
+>>>>>>> b35e361aae08b25436abf011c851df556b73227b
       }
     },
     "EDIT": {
@@ -67,7 +113,21 @@
       "API": {
         "SUCCESS_MESSAGE": "SLA atualizado com sucesso",
         "ERROR_MESSAGE": "Ocorreu um erro, por favor tente novamente"
+      },
+      "CONFIRM": {
+        "TITLE": "Confirmar exclusão",
+        "MESSAGE": "Tem certeza que deseja excluir?",
+        "YES": "Sim, excluir.",
+        "NO": "Não, mantenha."
       }
-    }
+    },
+    "EVENTS": {
+      "TITLE": "SLA Perdidos",
+      "FRT": "Primeira resposta",
+      "NRT": "Próximo tempo de resposta",
+      "RT": "Tempo de resolução",
+      "SHOW_MORE": "{count} mais",
+      "HIDE": "Ocultar {count} linhas"
+      }
   }
 }

@@ -1,17 +1,5 @@
-const {
-  blue,
-  blueDark,
-  green,
-  greenDark,
-  yellow,
-  yellowDark,
-  slate,
-  slateDark,
-  red,
-  redDark,
-  violet,
-  violetDark,
-} = require('@radix-ui/colors');
+const { slateDark } = require('@radix-ui/colors');
+import { colors } from './theme/colors';
 const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   darkMode: 'class',
@@ -41,6 +29,7 @@ module.exports = {
       'modal-backdrop-light': 'rgba(0, 0, 0, 0.4)',
       'modal-backdrop-dark': 'rgba(0, 0, 0, 0.6)',
       current: 'currentColor',
+<<<<<<< HEAD
       woot: {
         25: "#f5faff",
         50: "#ebf4f5",
@@ -129,6 +118,9 @@ module.exports = {
         800: violetDark.violet6,
         900: violet.violet12,
       },
+=======
+      ...colors,
+>>>>>>> b35e361aae08b25436abf011c851df556b73227b
       body: slateDark.slate7,
     },
     keyframes: {

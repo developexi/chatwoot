@@ -18,6 +18,7 @@ json.allow_messages_after_resolved resource.allow_messages_after_resolved
 json.lock_to_single_conversation resource.lock_to_single_conversation
 json.sender_name_type resource.sender_name_type
 json.business_name resource.business_name
+json.allow_agent_to_delete_message resource.allow_agent_to_delete_message
 
 if resource.portal.present?
   json.help_center do
@@ -71,8 +72,11 @@ if resource.email?
     json.imap_address resource.channel.try(:imap_address)
     json.imap_port resource.channel.try(:imap_port)
     json.imap_enabled resource.channel.try(:imap_enabled)
-    json.microsoft_reauthorization resource.channel.try(:microsoft?) && resource.channel.try(:provider_config).empty?
     json.imap_enable_ssl resource.channel.try(:imap_enable_ssl)
+
+    if resource.channel.try(:microsoft?)
+      json.microsoft_reauthorization resource.channel.try(:provider_config).empty? || resource.channel.try(:reauthorization_required?)
+    end
   end
 
   ## SMTP

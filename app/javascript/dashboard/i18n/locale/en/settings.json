@@ -10,11 +10,20 @@
     "PASSWORD_UPDATE_SUCCESS": "Sua senha foi alterada com sucesso",
     "AFTER_EMAIL_CHANGED": "Seu perfil foi atualizado com sucesso, faça login novamente, pois suas credenciais de login foram alteradas",
     "FORM": {
+<<<<<<< HEAD
       "AVATAR": "Imagem de perfil",
       "ERROR": "Corrija os erros do formulário",
       "REMOVE_IMAGE": "RRemover",
       "UPLOAD_IMAGE": "Enviar Imagem",
       "UPDATE_IMAGE": "Actualizar imagem",
+=======
+      "PICTURE": "Profile Picture",
+      "AVATAR": "Profile Image",
+      "ERROR": "Please fix form errors",
+      "REMOVE_IMAGE": "Remove",
+      "UPLOAD_IMAGE": "Upload image",
+      "UPDATE_IMAGE": "Update image",
+>>>>>>> b35e361aae08b25436abf011c851df556b73227b
       "PROFILE_SECTION": {
         "TITLE": "Perfil",
         "NOTE": "Seu endereço de e-mail é sua identidade e é usado para fazer login."
@@ -55,6 +64,7 @@
         "BTN_TEXT": "Alterar a senha"
       },
       "ACCESS_TOKEN": {
+<<<<<<< HEAD
         "TITLE": "Token de acesso",
         "NOTE": "Este token pode ser usado se você estiver construindo uma integração baseada em API"
       },
@@ -66,6 +76,25 @@
           "NONE": "Nenhum",
           "ASSIGNED": "Conversas atribuídas",
           "ALL_CONVERSATIONS": "Todas as conversas"
+=======
+        "TITLE": "Access Token",
+        "NOTE": "This token can be used if you are building an API based integration",
+        "COPY": "Copy"
+      },
+      "AUDIO_NOTIFICATIONS_SECTION": {
+        "TITLE": "Audio Notifications",
+        "NOTE": "Enable audio notifications in dashboard for new messages and conversations.",
+        "ALERT_TYPES": {
+          "NONE": "None",
+          "MINE": "Assigned",
+          "ALL": "All"
+        },
+        "ALERT_TYPE": {
+          "TITLE": "Alert events for conversations:",
+          "NONE": "None",
+          "ASSIGNED": "Assigned Conversations",
+          "ALL_CONVERSATIONS": "All Conversations"
+>>>>>>> b35e361aae08b25436abf011c851df556b73227b
         },
         "DEFAULT_TONE": {
           "TITLE": "Tom de alerta:"
@@ -87,6 +116,23 @@
         "SLA_MISSED_FIRST_RESPONSE": "Envie notificações por e-mail quando uma conversa perder o SLA de primeira resposta",
         "SLA_MISSED_NEXT_RESPONSE": "Envie notificações por e-mail quando uma conversa perder o próximo SLA de resposta",
         "SLA_MISSED_RESOLUTION": "Envie notificações por e-mail quando uma conversa não tiver SLA de resolução"
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "Notification preferences",
+        "TYPE_TITLE": "Notification type",
+        "EMAIL": "Email",
+        "PUSH": "Push notification",
+        "TYPES": {
+          "CONVERSATION_CREATED": "A new conversation is created",
+          "CONVERSATION_ASSIGNED": "A conversation is assigned to you",
+          "CONVERSATION_MENTION": "You are mentioned in a conversation",
+          "ASSIGNED_CONVERSATION_NEW_MESSAGE": "A new message is created in an assigned conversation",
+          "PARTICIPATING_CONVERSATION_NEW_MESSAGE": "A new message is created in a participating conversation",
+          "SLA_MISSED_FIRST_RESPONSE": "A conversation misses first response SLA",
+          "SLA_MISSED_NEXT_RESPONSE": "A conversation misses next response SLA",
+          "SLA_MISSED_RESOLUTION": "A conversation misses resolution SLA"
+        },
+        "BROWSER_PERMISSION": "Enable push notifications for your browser so you’re able to receive them"
       },
       "API": {
         "UPDATE_SUCCESS": "Suas preferências de notificação foram atualizadas com sucesso",
@@ -237,9 +283,16 @@
     "NEW_INBOX": "Nova caixa de entrada",
     "REPORTS_CONVERSATION": "Conversations",
     "CSAT": "CSAT",
+<<<<<<< HEAD
     "CAMPAIGNS": "Campanhas",
     "ONGOING": "Em andamento",
     "ONE_OFF": "Um de cada",
+=======
+    "CAMPAIGNS": "Campaigns",
+    "ONGOING": "Ongoing",
+    "ONE_OFF": "One off",
+    "REPORTS_SLA": "SLA",
+>>>>>>> b35e361aae08b25436abf011c851df556b73227b
     "REPORTS_BOT": "Bot",
     "REPORTS_AGENT": "Agentes",
     "REPORTS_LABEL": "Etiquetas",
@@ -315,10 +368,16 @@
       "GO_TO_REPORTS_SIDEBAR": "Vá para a barra lateral Relatórios",
       "MOVE_TO_NEXT_TAB": "Ir para a próxima guia na lista de conversas",
       "GO_TO_SETTINGS": "Go to Settings",
+<<<<<<< HEAD
       "SWITCH_CONVERSATION_STATUS": "Mudar para o próximo status de conversa",
       "SWITCH_TO_PRIVATE_NOTE": "Mudar para nota privada",
       "SWITCH_TO_REPLY": "Mudar para responder",
       "TOGGLE_SNOOZE_DROPDOWN": "Alternar menu suspenso soneca"
+=======
+      "SWITCH_TO_PRIVATE_NOTE": "Switch to Private Note",
+      "SWITCH_TO_REPLY": "Switch to Reply",
+      "TOGGLE_SNOOZE_DROPDOWN": "Toggle snooze dropdown"
+>>>>>>> b35e361aae08b25436abf011c851df556b73227b
     },
     "KEYS": {
       "WINDOWS_KEY_AND_COMMAND_KEY": "Win / ⌘",
