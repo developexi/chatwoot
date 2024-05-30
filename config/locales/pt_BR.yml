@@ -120,13 +120,7 @@ pt_BR:
 
   notifications:
     notification_title:
-<<<<<<< HEAD
-      conversation_creation: "Uma conversa (#%{display_id}) foi criado em %{inbox_name}"
-      conversation_assignment: "Uma conversa (#%{display_id}) foi atribuído a você"
-      assigned_conversation_new_message: "Uma nova mensagem é criada na conversa (#%{display_id})"
-      conversation_mention: "Você foi mencionado em uma conversa (#%{display_id})"
-    attachment: "Attachment"
-=======
+<<<<<<<<< Temporary merge branch 1
       conversation_creation: ""
       conversation_assignment: "Uma conversa (#%{display_id}) foi atribuída a você"
       assigned_conversation_new_message: "Uma nova mensagem é criada na conversa (#%{display_id})"
@@ -135,7 +129,13 @@ pt_BR:
       sla_missed_next_response: ""
       sla_missed_resolution: "Resolução de meta de SLA perdida para conversa (#%{display_id})"
     attachment: "Anexo"
->>>>>>> b35e361aae08b25436abf011c851df556b73227b
+=========
+      conversation_creation: "Uma conversa (#%{display_id}) foi criado em %{inbox_name}"
+      conversation_assignment: "Uma conversa (#%{display_id}) foi atribuído a você"
+      assigned_conversation_new_message: "Uma nova mensagem é criada na conversa (#%{display_id})"
+      conversation_mention: "Você foi mencionado em uma conversa (#%{display_id})"
+    attachment: "Attachment"
+>>>>>>>>> Temporary merge branch 2
     no_content: "Sem conteúdo"
   conversations:
     messages:
@@ -267,12 +267,20 @@ pt_BR:
     days:
       one: "%{count} dia"
       other: "%{count} dias"
+      one: "%{count} dia"
+      other: "%{count} dias"
     hours:
+      one: "%{count} hora"
+      other: "%{count} horas"
       one: "%{count} hora"
       other: "%{count} horas"
     minutes:
       one: "%{count} minuto"
       other: "%{count} minutos"
+      one: "%{count} minuto"
+      other: "%{count} minutos"
     seconds:
+      one: "%{count} segundo"
+      other: "%{count} segundos"
       one: "%{count} segundo"
       other: "%{count} segundos"

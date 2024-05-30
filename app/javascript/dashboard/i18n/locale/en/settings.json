@@ -283,16 +283,16 @@
     "NEW_INBOX": "Nova caixa de entrada",
     "REPORTS_CONVERSATION": "Conversations",
     "CSAT": "CSAT",
-<<<<<<< HEAD
-    "CAMPAIGNS": "Campanhas",
-    "ONGOING": "Em andamento",
-    "ONE_OFF": "Um de cada",
-=======
+<<<<<<<<< Temporary merge branch 1
     "CAMPAIGNS": "Campaigns",
     "ONGOING": "Ongoing",
     "ONE_OFF": "One off",
     "REPORTS_SLA": "SLA",
->>>>>>> b35e361aae08b25436abf011c851df556b73227b
+=========
+    "CAMPAIGNS": "Campanhas",
+    "ONGOING": "Em andamento",
+    "ONE_OFF": "Um de cada",
+>>>>>>>>> Temporary merge branch 2
     "REPORTS_BOT": "Bot",
     "REPORTS_AGENT": "Agentes",
     "REPORTS_LABEL": "Etiquetas",

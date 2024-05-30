@@ -1,30 +1,7 @@
 {
   "SLA": {
     "HEADER": "SLA",
-<<<<<<< HEAD
-    "HEADER_BTN_TXT": "Add SLA",
-    "LOADING": "Buscando SLAs",
-    "SEARCH_404": "Não existem itens correspondentes a esta consulta",
-    "SIDEBAR_TXT": "<p><b>SLA</b> <p>Pense nos acordos de nível de serviço (SLAs) como promessas amigáveis ​​entre um provedor de serviços e um cliente.</p> <p> Essas promessas estabelecem expectativas claras sobre coisas como a rapidez com que a equipe responderá aos problemas, garantindo que você sempre obtenha uma resposta confiável. e experiência de alto nível!</p>",
-    "LIST": {
-      "404": "Não há SLAs disponíveis nesta conta.",
-      "TITLE": "Gerenciar SLA",
-      "DESC": "SLAs: Promessas amigáveis ​​para um ótimo serviço!",
-      "TABLE_HEADER": [
-        "Nome",
-        "Descrição",
-        "FRT",
-        "NRT",
-        "RT",
-        "Horário de funcionamento"
-      ]
-    },
-    "FORM": {
-      "NAME": {
-        "LABEL": "SLA Nome",
-        "PLACEHOLDER": "SLA Nome",
-        "REQUIRED_ERROR": "O nome do SLA é obrigatório",
-=======
+<<<<<<<<< Temporary merge branch 1
     "HEADER_BTN_TXT": "Adicionar SLA",
     "ADD_ACTION_LONG": "Criar uma nova política de SLA",
     "DESCRIPTION": "Acordos de Nível de Serviço (SLAs) são contratos que definem expectativas claras entre sua equipe e os clientes. Eles estabelecem padrões para tempos de resposta e resolução, criando um quadro de responsabilidade e garantindo uma experiência consistente e de alta qualidade.",
@@ -56,7 +33,30 @@
         "LABEL": "Nome do SLA",
         "PLACEHOLDER": "Nome do SLA",
         "REQUIRED_ERROR": "Nome do SLA é obrigatório",
->>>>>>> b35e361aae08b25436abf011c851df556b73227b
+=========
+    "HEADER_BTN_TXT": "Add SLA",
+    "LOADING": "Buscando SLAs",
+    "SEARCH_404": "Não existem itens correspondentes a esta consulta",
+    "SIDEBAR_TXT": "<p><b>SLA</b> <p>Pense nos acordos de nível de serviço (SLAs) como promessas amigáveis ​​entre um provedor de serviços e um cliente.</p> <p> Essas promessas estabelecem expectativas claras sobre coisas como a rapidez com que a equipe responderá aos problemas, garantindo que você sempre obtenha uma resposta confiável. e experiência de alto nível!</p>",
+    "LIST": {
+      "404": "Não há SLAs disponíveis nesta conta.",
+      "TITLE": "Gerenciar SLA",
+      "DESC": "SLAs: Promessas amigáveis ​​para um ótimo serviço!",
+      "TABLE_HEADER": [
+        "Nome",
+        "Descrição",
+        "FRT",
+        "NRT",
+        "RT",
+        "Horário de funcionamento"
+      ]
+    },
+    "FORM": {
+      "NAME": {
+        "LABEL": "SLA Nome",
+        "PLACEHOLDER": "SLA Nome",
+        "REQUIRED_ERROR": "O nome do SLA é obrigatório",
+>>>>>>>>> Temporary merge branch 2
         "MINIMUM_LENGTH_ERROR": "Tamanho mínimo 2 é necessário",
         "VALID_ERROR": "Somente Letras, Números, Hífen e Sublinhado são permitidos"
       },
@@ -78,13 +78,14 @@
       },
       "BUSINESS_HOURS": {
         "LABEL": "Horário de funcionamento",
-<<<<<<< HEAD
-        "PLACEHOLDER": "Somente em horário comercial"
-=======
+<<<<<<<<< Temporary merge branch 1
         "PLACEHOLDER": "Apenas durante o horário comercial"
->>>>>>> b35e361aae08b25436abf011c851df556b73227b
+=========
+        "PLACEHOLDER": "Somente em horário comercial"
+>>>>>>>>> Temporary merge branch 2
       },
       "THRESHOLD_TIME": {
+        "INVALID_FORMAT_ERROR": "O limite deve ser um número e maior que zero"
         "INVALID_FORMAT_ERROR": "O limite deve ser um número e maior que zero"
       },
       "EDIT": "Alterar",
@@ -93,24 +94,25 @@
       "CANCEL": "Cancelar"
     },
     "ADD": {
-<<<<<<< HEAD
-      "TITLE": "Add SLA",
-      "DESC": "SLAs: Promessas amigáveis ​​para um ótimo serviço!",
-      "API": {
-        "SUCCESS_MESSAGE": "SLA adicionado com sucesso",
-        "ERROR_MESSAGE": "Corrija um erro, por favor tente novamente"
-=======
+<<<<<<<<< Temporary merge branch 1
       "TITLE": "Adicionar SLA",
       "DESC": "Promessas amigáveis para um ótimo serviço!",
       "API": {
         "SUCCESS_MESSAGE": "SLA adicionado com sucesso",
         "ERROR_MESSAGE": "Ocorreu um erro, por favor tente novamente"
->>>>>>> b35e361aae08b25436abf011c851df556b73227b
+=========
+      "TITLE": "Add SLA",
+      "DESC": "SLAs: Promessas amigáveis ​​para um ótimo serviço!",
+      "API": {
+        "SUCCESS_MESSAGE": "SLA adicionado com sucesso",
+        "ERROR_MESSAGE": "Corrija um erro, por favor tente novamente"
+>>>>>>>>> Temporary merge branch 2
       }
     },
     "EDIT": {
       "TITLE": "Editar SLA",
       "API": {
+        "SUCCESS_MESSAGE": "SLA atualizado com sucesso",
         "SUCCESS_MESSAGE": "SLA atualizado com sucesso",
         "ERROR_MESSAGE": "Ocorreu um erro, por favor tente novamente"
       },
